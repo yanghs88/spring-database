@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring
+    username: study
+    password: Study12341$
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: com.victor.database.mapper
+  mapper-locations: mybatis/mapper/**/*.xml
